@@ -1,0 +1,103 @@
+body {
+  background: -moz-linear-gradient(top, rgb(195, 233, 250), #fff);
+  background: -webkit-linear-gradient(top, rgb(195, 233, 250), #fff);
+  background: linear-gradient(to bottom, rgb(195, 233, 250), #fff);
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  /* font-size: 20px; */
+  width: 900px;
+  margin: 0 auto;
+  font-family: "Lato", "arial", "メイリオ";
+  color: #494848;
+}
+.header1 {
+  /* background-color: #fff; */
+  /* border-bottom: 1px solid #ccc; */
+  font-weight: bold;
+  color: #dd1794;
+  /* text-shadow: -2px -2px 3px #3d6c47; */
+}
+.h1 {
+  text-shadow: -2px -2px 3px #f7eaf2;
+  /* background-color: #fff; */
+  padding: 0.2em; /*文字周りの余白*/
+  color: #dd1794; /*文字色*/
+  background: transparent; /*背景色*/
+  /* border-left: solid 5px #7db4e6;  */
+  border-bottom: solid 3px #7db4e6; /*下線*/
+}
+.form-box {
+  width: 600px 0 auto;
+  /* margin: 30px; */
+  padding: 5px;
+}
+.legend {
+  font-size: 18px;
+  padding: 10px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  /* color: rgb(7, 70, 95); */
+  /* font-size: 1.2em; */
+  color: #dd1794;
+  font-weight: bold;
+}
+.f-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #494848;
+  font-size: 20px;
+  /* margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px; */
+  margin: 0 auto;
+  color: #fff;
+  background: rgb(154, 215, 243);
+  border: solid 1px rgb(101, 198, 243);
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 4px;
+}
+
+/* show.php */
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background: linear-gradient(transparent 50%, #a8eaff 50%);
+}
+.naiyou {
+  font-size: 18px;
+}
+.name {
+  font-size: 15px;
+}
+.file_p {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}
+.btn {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8; /*ボタン色*/
+  color: #fff;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  font-size: 15px;
+  margin-left: 15px;
+}
+.btn:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px); /*下に動く*/
+  border-bottom: none; /*線を消す*/
+}
